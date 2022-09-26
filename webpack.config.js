@@ -102,6 +102,10 @@ module.exports = {
 				{
 					from: paths.src.img,
 					to: paths.dist.img
+				},
+				{
+					from: paths.src.legal,
+					to: paths.dist.legal
 				}
 			]
 		}),
