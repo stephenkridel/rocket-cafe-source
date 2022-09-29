@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {{> partials/head title="Landkit"}}
+  </head>
+  <body class="bg-light">
+
+    <!-- NAVBAR -->
+    {{> partials/navbar classList="navbar-light" container="container-fluid" button="primary"}}
+
+    <!-- WELCOME -->
+    <section class="pt-8 pt-md-12 pb-12 pb-md-12">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8 text-center">
+
+            <!-- Headin -->
+            <h1 class="display-1 fw-bold">
+              Herman.
+            </h1>
+
+            <!-- Text -->
+            <p class="lead text-secondary mb-4">
+              Your personal scribe. <br> <strong>Minimal, intuitive, endlessly customizable.</strong>
+            </p>
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+<!-- ABOUT -->
+<section>
+  <div class="container">
+    <div class="row justify-content-between align-items-center">
+      <div class="col-12 col-md-6 col-lg-5 order-md-2">
+
+        <!-- Image grid -->
+        <div class="d-flex flex-column w-md-130 mb-6 mb-md-0">
+
+          <!-- Image -->
+          <img class="img-fluid rounded shadow align-self-start" data-jarallax-element="-20" src="assets/img/screenshots/desktop/herman-blocks.PNG" alt="..." style="min-height: 1px; max-width: 45%; margin-top: -15%; margin-left: 5%;">
+
+          <!-- Image -->
+          <img class="img-fluid rounded shadow align-self-start" data-jarallax-element="-30" src="assets/img/screenshots/desktop/herman-input-cropped.PNG" alt="..." style="min-height: 1px; max-width: 45%; margin-top: -15%; margin-left: 55%;">
+
+          <!-- Image -->
+          <img class=" img-fluid rounded shadow align-self-center" data-jarallax-element="-20" src="assets/img/screenshots/desktop/herman-variable-cropped.PNG" alt="..." style="min-height: 1px; max-width: 45%; margin-top: -15%; margin-left: -45%;">
+
+        </div>
+
+      </div>
+      <div class="col-12 col-md-6 order-md-1 pt-md-4 pt-8">
+
+        <!-- Heading -->
+        <h1>
+          Create session notes with ease using <em>inline variable insertion</em>.
+        </h1>
+
+        <!-- Text -->
+        <p class="fs-lg text-gray-700 mb-6">
+          Just create a block, add a title, and then write your text including variables with a simple inline syntax. Just add in brackets and seperate the variables with a comma (i.e. [are, aren't]). Then when you add the block, just select the appropriate variable.
+        </p>
+
+      </div>
+    </div> <!-- / .row -->
+  </div> <!-- / .container -->
+</section>
+
+<section class="py-8 py-md-11">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-10 col-md-8 col-lg-6 order-md-1 d-block mx-auto img-responsive pb-8">
+            <div class="img-skewed img-skewed-start">
+              <!-- Image -->
+              <img src="assets/img/screenshots/desktop/herman-screen.PNG" alt="..." class="screenshot img-fluid img-skewed-item" data-aos="fade-left">
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-6 order-md-2" data-aos="fade-right">
+
+            <!-- Heading -->
+            <h2 class="fw-bold">
+              Built minimally, to maximize ease of use.
+            </h2>
+
+            <!-- Text -->
+            <p class="fs-lg text-gray-700 mb-0">
+              The app may look sparce, but hidden behind the minimalistic layout are powerful features. Every text block can have child blocks built beneath it, to allow you to fully create your normal flow-of-thought into the click-through interface.
+            </p>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <section>
+      <div class="container" style="margin-top: 5%; margin-bottom: 5%">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-12 col-lg-12 order-md-1" data-aos="fade-up"></div>
+
+            <!-- Buttons -->
+            <div class="text-center" style="margin-bottom: 5%">
+              <a href="https://sourceforge.net/projects/herman-emr-builder/" class="btn btn-info shadow lift me-1">
+                Download Herman <i class="fe fe-arrow-right d-none d-md-inline ms-3"></i>
+              </a>
+            </div>
+            <!-- Text -->
+            <p class="lead text-center text-muted mb-6 mb-lg-6">
+              Try out an early release of Herman above :)
+            </p>
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- SHAPE -->
+    <div class="position-relative">
+      <div class="shape shape-bottom shape-fluid-x text-gray-200">
+        {{> curves/curve-1}}
+      </div>
+    </div>
+
+
+    <!-- FOOTER -->
+    {{> partials/footer classList="bg-gray-200"}}
+
+    <!-- JAVASCRIPT -->
+    {{> partials/scripts}}
+
+  </body>
+</html>
